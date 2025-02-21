@@ -27,6 +27,10 @@
   @media screen and (max-width: 1064px) {
     flex-direction: row;
    }
+
+   @media screen and (max-width: 550px) {
+    height: 50px;
+   }
 }
 
 .top-text {
@@ -128,6 +132,11 @@
 
   @media screen and (max-width: 1064px) {
   flex-direction: row;
+   }
+
+   @media screen and (max-width: 550px) {
+    align-items: start;
+    margin-top: 20px;
    }
 }
 

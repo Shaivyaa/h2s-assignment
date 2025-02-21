@@ -11,7 +11,10 @@ export default function App() {
         <Header />
         <HeroSection />
       </div>
-      <Footer />
+      <div className="footer">
+        {" "}
+        <Footer />
+      </div>
     </>
   );
 }
