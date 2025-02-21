@@ -1,0 +1,147 @@
+#article-section-wrapper {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+
+  @media screen and (max-width: 1024px) {
+    gap: 80px;
+  }
+}
+
+.bg-content {
+  background-image: url("../../../public//assets/images/bg-content.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.number-series-section {
+  margin-right: -80px;
+
+  @media screen and (max-width: 1064px) {
+    margin-right: 0;
+  }
+}
+
+.article-section-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-box {
+  display: flex;
+  width: 100%;
+}
+
+.box-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 114px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.box-wrapper.reverse {
+  flex-direction: row-reverse;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.article-description {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: start;
+  margin-top: 80px;
+
+  @media screen and (max-width: 1064px) {
+    margin-top: 86px;
+  }
+  
+}
+
+.article-header-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.article-header {
+  color: #fbd784;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.article-subheader {
+  color: #fff;
+  font-family: "Chronicle Display";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  @media screen and (max-width: 1064px) {
+   font-size: 33px;
+  }
+}
+
+.article-details {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.article-read-more {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.read-more-text {
+  color: var(--Accent, #fbd784);
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.arrow-icon {
+  cursor: pointer;
+}
+
+.article-img {
+  
+  @media screen and (max-width: 1064px) {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+.number-text {
+  @media screen and (max-width: 1064px) {
+    height: 200px;
+    width: 100%;
+  }
+}

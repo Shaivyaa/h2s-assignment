@@ -1,0 +1,217 @@
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 50px auto 0 auto;
+  padding: 0 82px;
+
+  @media screen and (max-width: 1064px) {
+    flex-direction: column;
+    align-items: start;
+   }
+
+   @media screen and (max-width: 550px) {
+    padding: 0 30px;
+   }
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+
+  @media screen and (max-width: 1064px) {
+    flex-direction: row;
+   }
+}
+
+.top-text {
+  transform: rotate(90deg);
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  @media screen and (max-width: 1064px) {
+    transform: rotate(360deg);
+   }
+}
+
+
+
+.header-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-text {
+  color: #fbd784;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.center-details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.description-text {
+  color: #fff;
+  font-family: "Chronicle Display";
+  font-size: 88px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 100px; 
+  text-transform: capitalize;
+  width: 100%;
+  max-width: 950px;
+
+  @media screen and (max-width: 1064px) {
+    font-size: 40px;
+    line-height: 50px;
+   }
+}
+
+.line {
+  width: 72px;
+  height: 2px;
+}
+
+.arrow-down {
+  width: 16px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.bottom-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bottom-text {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.number-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  height: 240px;
+  color: #fff;
+  text-align: right;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  @media screen and (max-width: 1064px) {
+  flex-direction: row;
+   }
+}
+
+.slider-box {
+  display: flex;
+  gap: 32px;
+
+  @media screen and (max-width: 1064px) {
+    flex-direction: column;
+    align-items: start;
+   }
+}
+
+.slider-line {
+  @media screen and (max-width: 1064px) {
+    display: none;
+   }
+}
+
+.number-cursor {
+  cursor: pointer;
+}
+
+#textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation,
+.animation_layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.animation_layer.parallax {
+  position: fixed;
+}

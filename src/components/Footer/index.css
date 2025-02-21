@@ -1,0 +1,99 @@
+.footer-wrapper {
+  height: 300px;
+  background-color: #0c1d26;
+  padding: 120px 70px;
+  height: 100%;
+  margin-top: -200px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 120px 70px ;
+  }
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1024px) {
+   flex-direction: column;
+   gap: 70px;
+   
+  }
+}
+
+.footer-start-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 108px;
+  height: 38px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-top-text {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width: 100%;
+  max-width: 303px;
+}
+
+.footer-bottom {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+}
+
+.footer-end-container {
+  display: flex;
+  width: 100%;
+  max-width: 566px;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 70px;
+   }
+}
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-name {
+  color: #fbd784;
+  font-family: "Gilroy";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.footer-desc {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  cursor: pointer;
+}

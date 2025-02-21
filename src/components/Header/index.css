@@ -1,0 +1,82 @@
+.header-wrapper {
+  padding: 64px 80px;
+
+  @media screen and (max-width: 750px) {
+    padding: 20px;
+   }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-container {
+  width: 108px;
+  height: 24px;
+  cursor: pointer;
+  
+  img {
+    width: 108px;
+    height: 24px;
+  }
+}
+
+.navitem-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  @media screen and (max-width: 750px) {
+    gap: 20px;
+   }
+}
+
+.account-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-item {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: transform 0.2s ease, content 0.2s ease;
+
+  &:hover {
+    color: black;
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: 12px;
+   }
+}
+
+.account-profile-icon-container {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.account-profile-name {
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
